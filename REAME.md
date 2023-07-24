@@ -1,0 +1,3 @@
+# HumanWare stuff
+
+`source .alias`

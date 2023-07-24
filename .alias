@@ -1,0 +1,3 @@
+alias hw='bazel-bin/hello-world'
+alias bb='bazel build hello-world'
+alias bt='bazelb'
