@@ -1,5 +1,6 @@
+#include "LibMath/math_hw.hpp"
+
 #include <iostream>
-#include "math_hw.hpp"
 
 using namespace std;
 
@@ -10,5 +11,5 @@ int main() {
         << add_numbers(1,1)
         << endl;
 
-    return 0;
+    return EXIT_SUCCESS;
 }

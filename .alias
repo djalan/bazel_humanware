@@ -1,3 +1,7 @@
-alias hw='bazel-bin/hello-world'
-alias bb='bazel build hello-world'
+alias hw='bazel run bin:hello-world'
+alias br='bazel run bin:hello-world'
+alias hw2='bazel-bin/bin/hello-world'
+
+alias bb='bazel build //bin:hello-world'
+
 alias bt='bazelb'

@@ -1,6 +1,5 @@
 #include <gtest/gtest.h>
-//#include math_hw.h
-
+#include "LibMath/math_hw.hpp"
 
 
 TEST(AdditionTest, ReturnsCorrectSum) {
@@ -9,4 +8,3 @@ TEST(AdditionTest, ReturnsCorrectSum) {
   // EXPECT_NEQ(add_numbers(1, 1), 1);
   // EXPECT_NEQ(add_numbers(1, 1), 3);
 }
-
