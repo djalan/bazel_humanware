@@ -1,7 +1,7 @@
 cc_library(
   name = "math-hw",
   srcs = ["src/math_hw.cc"],
-  hdrs = ["src/math_hw.h"],
+  hdrs = ["src/math_hw.hpp"],
 )
 
 cc_binary(

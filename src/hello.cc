@@ -1,5 +1,5 @@
 #include <iostream>
-#include "math_hw.h"
+#include "math_hw.hpp"
 
 using namespace std;
 
