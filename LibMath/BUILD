@@ -1,6 +1,6 @@
 cc_library(
   name = "LibMath",
-  srcs = ["math_hw.cc"],
-  hdrs = ["math_hw.hpp"],
+  srcs = ["math.cc"],
+  hdrs = ["math.hpp"],
   visibility = ["//visibility:public"],
 )

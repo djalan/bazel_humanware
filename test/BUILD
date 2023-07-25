@@ -1,9 +1,12 @@
 cc_test(
-  name = "LibMathTest",
+  name = "EverythingTest",
   size = "small",
-  srcs = ["math_hw_test.cpp"],
+  srcs = glob(
+    ["**/*.cc"]
+  ),
   deps = [
     "@com_google_googletest//:gtest_main", 
     "//LibMath:LibMath",
+    "//LibString:LibString",
     ],
 )

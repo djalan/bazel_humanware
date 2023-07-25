@@ -1,7 +1,6 @@
-alias hw='bazel run bin:hello-world'
-alias br='bazel run bin:hello-world'
-alias hw2='bazel-bin/bin/hello-world'
-
 alias bb='bazel build //bin:hello-world'
 
-alias bt='bazelb'
+alias bt='bazel test --cxxopt=-std=c++14 --test_output=all //test:EverythingTest'
+
+alias br='bazel run bin:hello-world'
+alias hw='bazel-bin/bin/hello-world'

@@ -1,4 +1,4 @@
-#include "math_hw.hpp"
+#include "math.hpp"
 
 int add_numbers(int a, int b) {
     return (a + b);

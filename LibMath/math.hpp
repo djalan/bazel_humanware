@@ -1,5 +1,5 @@
-#ifndef MATH_HW_H
-#define MATH_HW_H
+#ifndef MATH_H
+#define MATH_H
 
 int add_numbers(int a, int b);
 
