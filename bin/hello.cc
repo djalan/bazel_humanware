@@ -14,7 +14,6 @@ int main() {
         << endl;
     
     string fruit("apple");
-    
     cout << "Print '" << fruit << "' in uppercase: "
         << to_uppercase(fruit)
         << endl;
