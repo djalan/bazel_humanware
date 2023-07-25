@@ -1,3 +1,9 @@
-# HumanWare stuff
+# HumanWare preparation
 
-`source .alias`
+## What?
+Bazel, CPP, Testing, Mocking, Libraries
+
+## Helpers
+```bash
+source .alias`
+```
