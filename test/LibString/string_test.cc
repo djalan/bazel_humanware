@@ -2,13 +2,27 @@
 #include "LibString/string.hpp"
 
 TEST(StringTest, ReturnsStringInUppercasePass) {
-  string s1("apple");
-  string s2(to_uppercase(s1));
+  std::string s1("apple");
+  std::string s2(to_uppercase(s1));
   EXPECT_EQ(s2, "APPLE");
 }
 
 TEST(StringTest, OriginalStringIsNotChangedPass) {
-  string s1("apple");
-  string s2(to_uppercase(s1));
+  std::string s1("apple");
+  std::string s2(to_uppercase(s1));
   EXPECT_EQ(s1, "apple");
+}
+
+TEST(StringTest, AbseilJoinWithSpacePass) {
+  std::string s1("apple");
+  std::string s2("tasty");
+  std::string s3(join_strings(s1, s2, " "));
+  EXPECT_EQ(s3, "apple tasty");
+}
+
+TEST(StringTest, AbseilJoinWithDashPass) {
+  std::string s1("apple");
+  std::string s2("tasty");
+  std::string s3(join_strings(s1, s2, "-"));
+  EXPECT_EQ(s3, "apple-tasty");
 }

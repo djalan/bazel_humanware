@@ -3,8 +3,8 @@
 
 #include <string>
 
-using namespace std;
+std::string to_uppercase(std::string s);
 
-string to_uppercase(string s);
+std::string join_strings(std::string s1, std::string s2, std::string separator);
 
 #endif
