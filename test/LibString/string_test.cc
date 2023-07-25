@@ -1,6 +1,7 @@
 #include "gtest/gtest.h"
 #include "LibString/string.hpp"
 
+
 TEST(StringTest, ReturnsStringInUppercasePass) {
   std::string s1("apple");
   std::string s2(to_uppercase(s1));
